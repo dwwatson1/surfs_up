@@ -14,10 +14,10 @@ The purpose of this analysis was to help W. Avy determine if opening a surf and 
 ### Overview of Results 
 To complete my climate analysis, I ran two queries to obtain all June and December temperatures from Oahu weather station data and store them in lists. Then, I converted the lists into a Dataframe using Pandas. Using the .describe() function. 
 
-#### June Tempearature Summary
+#### June Temperature Summary
 ![June_Temps](https://github.com/dwwatson1/surfs_up/blob/main/June_Temps.png)
 
-#### December Tempearature Summary
+#### December Temperature Summary
 ![December_Temps](https://github.com/dwwatson1/surfs_up/blob/main/December_Temps.png)
 
 #### Takeaways from Temperature Data
