@@ -12,6 +12,25 @@ The purpose of this analysis was to help W. Avy determine if opening a surf and 
 * Notebooks: [climate_analysis](https://github.com/dwwatson1/surfs_up/blob/main/climate_analysis.ipynb) & [SurfsUp_Challenge](https://github.com/dwwatson1/surfs_up/blob/main/SurfsUp_Challenge.ipynb)
  
 ### Overview of Results 
-I ran two queries to obtain all June and December temperatures from weather station data and store them in lists. Then, I converted the lists into a Dataframe using Pandas. Using the .describe() function,
+To complete my climate analysis, I ran two queries to obtain all June and December temperatures from Oahu weather station data and store them in lists. Then, I converted the lists into a Dataframe using Pandas. Using the .describe() function. 
+
+#### June Tempearature Summary
+![June_Temps](https://github.com/dwwatson1/surfs_up/blob/main/June_Temps.png)
+
+#### December Tempearature Summary
+![December_Temps](https://github.com/dwwatson1/surfs_up/blob/main/December_Temps.png)
+
+#### Takeaways from Temperature Data
+The temperature summary statistics from June and December for the island of Oahu are shown above. This data comes accounts for the many [micro climates](https://www.to-hawaii.com/oahu/weather.php) on the island itself, as the weather data comes from 9 different stations dating back to 2010. 
+
+- Temperatures are fairly uniform year-round. The average temperature difference between June (75 degrees) and December (71 degrees). For including max and min temperatures, that's quite warm, but not uncomfortably hot.
+- The standard deviation in December is slightly higher than June (3.75 vs. 3.26), which shows that there is more temperature variance in December, albeit minimal. This data also confirms that the temperatures don't fluctuate much.
+- The minimum temperatures between June and December show that greatest difference of 8 degrees (64 vs. 56 degrees). While 56 may be chilly for Hawaii standards, I'm sure Californians would say that weather is more than suitable for surfing and ice cream consumption. 
 
 ### Summary
+From this climate analysis, we determined that the temperatures in Oahu are steadily warm. The temperatures in June and December never go above 85 or below 56. This year-round pattern of temperature is ideal for surfing and eating ice cream. I would recommend, W. Avy move forward with opening up his shop. But, before moving forward, I recommend W. Avy consider two more data points.
+
+#### Additional Queries
+To figure out when it's most ideal to surf, we need to look at wind speeds as this likely affects surf height. We should also query surf height as this is a metric the [National Weather Service](https://www.weather.gov/hfo/surfreports) tracks on the Hawaiian islands. Doing so would confirm the two are related. 
+
+It also recommend querying ocean temperatures. The warmer the ocean temperatures are, the more likely surfers and beachgoers will be around the water. [This website](https://www.to-hawaii.com/oahu/weather.php) notes that the average ocean temperature in Oahu in February is 75 and 80 in September. With this information and more from a future query, we're likely to find that like air temperature, ocean temperatures don't change much. This is warm enough to at least swim year-round. The wind and surf height will tell us if wind and surf height changes based on seasons.  
