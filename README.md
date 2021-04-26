@@ -7,7 +7,7 @@ The purpose of this analysis was to help W. Avy determine if opening a surf and 
 ## Results of the Analysis
 
 ### Analysis Resources
-* Data Sources: Hawaii_Weather_Data(https://github.com/dwwatson1/surfs_up/blob/main/hawaii.sqlite)
+* Data Sources: [Hawaii_Weather_Data](https://github.com/dwwatson1/surfs_up/blob/main/hawaii.sqlite)
 * Software: Jupyter Notebook 6.1.4, VS Code 1.55.0, SQLAlchemy
 * Notebooks: [climate_analysis](https://github.com/dwwatson1/surfs_up/blob/main/climate_analysis.ipynb) & [SurfsUp_Challenge](https://github.com/dwwatson1/surfs_up/blob/main/SurfsUp_Challenge.ipynb)
  
