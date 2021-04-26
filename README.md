@@ -21,7 +21,7 @@ To complete my climate analysis, I ran two queries to obtain all June and Decemb
 ![December_Temps](https://github.com/dwwatson1/surfs_up/blob/main/December_Temps.png)
 
 #### Takeaways from Temperature Data
-The temperature summary statistics from June and December for the island of Oahu are shown above. This data comes accounts for the many [micro climates](https://www.to-hawaii.com/oahu/weather.php) on the island itself, as the weather data comes from 9 different stations dating back to 2010. 
+The temperature summary statistics from June and December for the island of Oahu are shown above. This weather data comes from 9 different stations dating back to 2010, which accounts for the many [micro climates](https://www.to-hawaii.com/oahu/weather.php) on the island itself. 
 
 - Temperatures are fairly uniform year-round. The average temperature difference between June (75 degrees) and December (71 degrees). For including max and min temperatures, that's quite warm, but not uncomfortably hot.
 - The standard deviation in December is slightly higher than June (3.75 vs. 3.26), which shows that there is more temperature variance in December, albeit minimal. This data also confirms that the temperatures don't fluctuate much.
