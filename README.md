@@ -15,10 +15,10 @@ The purpose of this analysis was to help W. Avy determine if opening a surf and 
 To complete my climate analysis, I ran two queries to obtain all June and December temperatures from Oahu weather station data and store them in lists. Then, I converted the lists into a Dataframe using Pandas. Using the .describe() function. 
 
 #### June Temperature Summary
-![June_Temps](https://github.com/dwwatson1/surfs_up/blob/main/June_Temps.png =250x250)
+![June_Temps](https://github.com/dwwatson1/surfs_up/blob/main/June_Temps.png | width=100))
 
 #### December Temperature Summary
-![December_Temps](https://github.com/dwwatson1/surfs_up/blob/main/December_Temps.png =250x250)
+![December_Temps](https://github.com/dwwatson1/surfs_up/blob/main/December_Temps.png | width=100))
 
 #### Takeaways from Temperature Data
 The temperature summary statistics from June and December for the island of Oahu are shown above. This weather data comes from 9 different stations dating back to 2010, which accounts for the many [micro climates](https://www.to-hawaii.com/oahu/weather.php) on the island itself. 
